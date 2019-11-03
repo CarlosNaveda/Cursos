@@ -63,11 +63,8 @@ return flag;
 function dibujoPorClick(evento)
 { //variables locales
   var desplazamiento=10;
-  console.log("entro");
   console.log(evento);
-  //console.log(evento.keyCode);
-  //console.log(evento.timeStamp);
-  //switch para evento teclas
+
   switch (evento.keyCode)
   { case teclas.LEFT:
       flagLimite=verificaLimite(xinicial,yinicial,xinicial-desplazamiento,yinicial);
