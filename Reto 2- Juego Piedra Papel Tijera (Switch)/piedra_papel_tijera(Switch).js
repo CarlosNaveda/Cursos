@@ -1,4 +1,4 @@
-// Reto 1 - Juego de Piedra, Papel o Tijera
+// Reto 2 - Juego de Piedra, Papel o Tijera (Switch)
 var elements = ["Piedra","Papel","Tijera"];
 
 //Elección de la PC (De forma aleatoria)
