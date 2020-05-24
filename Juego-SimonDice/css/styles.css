@@ -1,0 +1,144 @@
+:root
+ {  
+    --font-text: 'Caveat';
+   
+}
+
+body {
+    margin: 0;
+    background: #dedede;
+    display: flex;  
+    align-items: center;
+    height: 100vh;
+    font-family: var(--font-text);
+    font-size: 40px;
+  }
+
+  .containerGame
+  {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    /* margin-top: 30vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .containerLevel
+  {
+    margin-bottom: 35px;
+    height: 40px;
+    width: 100%;
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .txtLevel
+  {
+    height: 50px;
+    text-align: center;
+    font-family: var(--font-text);
+    font-size: 40px;
+  }
+
+  .gameboard 
+  {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+    
+  }
+
+  .color 
+  {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .left 
+  {
+    float: left;
+  }
+
+  .right 
+  {
+    float: left;
+  }
+
+  .celeste 
+  {
+    background: #22a6b3;
+  }
+
+  .celeste.light 
+  {
+    background: #7ed6df;
+  }
+
+  .violeta 
+  {
+    background: #be2edd;
+  }
+
+  .violeta.light 
+  {
+    background: #e056fd;
+  }
+
+  .naranja 
+  {
+    background: #f0932b;
+  }
+
+  .naranja.light 
+  {
+    background: #ffbe76;
+  }
+
+  .verde 
+  {
+    background: #6ab04c;
+  }
+
+  .verde.light 
+  {
+    background: #badc58;
+  }
+
+  .btn-start 
+  {
+    width: 400px;
+    height: 100px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    font-family: var(--font-text);
+    position: absolute;
+    top: calc(100% - 500px);
+    left: calc(50% - 200px);
+  }
+
+  .hide 
+  {
+    display: none;
+  }
+
+  .swal-title
+  {
+    font-size: 40px;
+  }
+
+  .swal-text
+  {
+    font-size: 30px;
+  }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Dice</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Permanent+Marker&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="containerGame">
+        <div class="containerLevel">        
+            <input type="text" id='txtNivel' placeholder="Nivel: 0" class='txtLevel' readonly="readonly"> 
+        </div>   
+        <div class="gameboard">
+        <div id="celeste" class="color celeste left" data-color="CELESTE" data-sound='A'></div>        
+        <div id="violeta" class="color violeta right" data-color="VIOLETA" data-sound='B'></div>
+        <div id="naranja" class="color naranja left" data-color="NARANJA" data-sound='C'></div>
+        <div id="verde" class="color verde right" data-color="VERDE" data-sound='D'></div>
+        <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">¡Empezar a jugar!</button>
+        </div>
+    </div>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js"></script>
+    <script src="simonDice.js"></script>
+  </body>
+</html>
