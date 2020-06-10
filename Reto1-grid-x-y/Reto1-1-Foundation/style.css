@@ -1,0 +1,11 @@
+.grid-x, .grid-y{
+    background-color: #ffa502;
+}
+
+.cell{
+    background-color: #ff7f50;
+    border: solid 1px;
+    border-color: #ff6348;
+    color: white;
+    height: 100px;
+}
